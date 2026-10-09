@@ -372,7 +372,7 @@ function App() {
         {/* Layer 1: Base Background */}
         <img
           src="/hero Background.png"
-          alt="Hero Background"
+          alt="Shree Rudra Divine Sacred Himalayan Temple Sanctum Background"
           style={{
             position: 'absolute',
             top: 0,
@@ -401,6 +401,7 @@ function App() {
           }}
         >
           <h1
+            aria-label="Shree Rudra Divine - Original Certified Nepalese Rudraksha and Vedic Gemstones Mumbai"
             style={{
               fontSize: 'var(--divine-font-size)',
               fontFamily: 'var(--font-body)',
@@ -427,7 +428,7 @@ function App() {
         {/* Layer 2: Left Temple Foreground */}
         <img
           src="/left temple-Photoroom.png"
-          alt="Left Temple"
+          alt="Sacred Himalayan Temple Architecture - Shree Rudra Divine"
           style={{
             position: 'absolute',
             top: 0,
@@ -445,7 +446,7 @@ function App() {
         {/* Layer 3: Right Temple Foreground */}
         <img
           src="/right temple-Photoroom.png"
-          alt="Right Temple"
+          alt="Cosmic Sanctum Temple Columns - Shree Rudra Divine"
           style={{
             position: 'absolute',
             top: 0,
@@ -464,7 +465,7 @@ function App() {
         <img
           className="layer-gemstone-img"
           src="/gemstone-modified.png"
-          alt="Gemstones"
+          alt="Original Certified Nepalese Rudraksha and Vedic Astrological Gemstones Mumbai"
           style={{
             zIndex: 30,
             pointerEvents: 'none',
@@ -746,7 +747,7 @@ function App() {
             }}
           >
             <span className="panel-number">01</span>
-            <img src="/premium-rudraksha.png" alt="Nepali Rudraksha" className="panel-img" />
+            <img src="/premium-rudraksha.png" alt="Authentic Certified Nepali Rudraksha Beads - Shree Rudra Divine Mumbai" className="panel-img" />
             <h3 className="panel-title">Nepali Rudraksha</h3>
             <p className="panel-desc">
               Powerful, premium-grade Nepali Rudraksha beads from 1 to 21 Mukhi. Perfect for spiritual growth, stress relief, and cosmic protection.
@@ -765,7 +766,7 @@ function App() {
             }}
           >
             <span className="panel-number">02</span>
-            <img src="/premium-gemstone.png" alt="Cosmic Gemstone" className="panel-img" />
+            <img src="/premium-gemstone.png" alt="Natural Certified Vedic Astrological Gemstones - Shree Rudra Divine Mumbai" className="panel-img" />
             <h3 className="panel-title">Cosmic Gemstones</h3>
             <p className="panel-desc">
               Naturally sourced, certified gemstones aligned with Vedic Astrology to amplify positive planetary influences and manifest abundance.
@@ -784,7 +785,7 @@ function App() {
             }}
           >
             <span className="panel-number">03</span>
-            <img src="/premium-yantra.png" alt="Vedic Yantra" className="panel-img" />
+            <img src="/premium-yantra.png" alt="Energized Sphatik Crystal Vedic Yantras - Shree Rudra Divine Mumbai" className="panel-img" />
             <h3 className="panel-title">Vedic Yantras</h3>
             <p className="panel-desc">
               Expertly designed combinations of sacred geometric charts and energized items custom-crafted to align your specific energetic fields.

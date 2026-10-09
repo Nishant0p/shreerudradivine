@@ -1,0 +1,8 @@
+# Robots.txt for Shree Rudra Divine
+User-agent: *
+Allow: /
+Disallow: /admin
+
+# Crawl Delay & Sitemap
+Host: https://shreerudradivine.vercel.app
+Sitemap: https://shreerudradivine.vercel.app/sitemap.xml

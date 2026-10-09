@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://shreerudradivine.vercel.app/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://shreerudradivine.vercel.app/logo.png</image:loc>
+      <image:title>Shree Rudra Divine Logo</image:title>
+      <image:caption>Authentic Certified Nepalese Rudraksha and Rare Astrological Gemstones Mumbai</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://shreerudradivine.vercel.app/premium-rudraksha.png</image:loc>
+      <image:title>Certified Authentic Nepalese Rudraksha Beads</image:title>
+      <image:caption>Rare Mukhi energized Rudraksha beads</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://shreerudradivine.vercel.app/premium-gemstone.png</image:loc>
+      <image:title>Natural Astrological Gemstones Mumbai</image:title>
+      <image:caption>Govt laboratory certified Blue Sapphire, Emerald, Ruby, Yellow Sapphire</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://shreerudradivine.vercel.app/premium-yantra.png</image:loc>
+      <image:title>Energized Sacred Vedic Yantra</image:title>
+      <image:caption>Authentic consecrated Sphatik Shree Yantras</image:caption>
+    </image:image>
+  </url>
+</urlset>
