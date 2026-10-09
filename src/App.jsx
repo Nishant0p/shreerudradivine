@@ -401,7 +401,7 @@ function App() {
           }}
         >
           <h1
-            aria-label="Shree Rudra Divine - Original Certified Nepalese Rudraksha and Vedic Gemstones Mumbai"
+            aria-label="Rudra Divine - Original Certified Nepalese Rudraksha and Vedic Gemstones Mumbai"
             style={{
               fontSize: 'var(--divine-font-size)',
               fontFamily: 'var(--font-body)',
@@ -418,7 +418,7 @@ function App() {
           >
             <span className="desktop-text">DIVINE</span>
             <span className="mobile-text">
-              SHREERUDRA
+              RUDRA
               <br />
               DIVINE
             </span>
@@ -1150,11 +1150,11 @@ function App() {
           />
         </div>
         <div className="footer-logo">
-          SHREE <span>RUDRADIVINE</span>
+          RUDRA <span>DIVINE</span>
         </div>
         <p>Bringing sacred energy, cosmic alignment, and divine blessings to seekers around the globe.</p>
         <p style={{ fontSize: '0.8rem', color: '#555' }}>
-          &copy; {new Date().getFullYear()} Shree Rudradivine. All Rights Reserved. Crafted for cosmic alignment.
+          &copy; {new Date().getFullYear()} Rudra Divine. All Rights Reserved. Crafted for cosmic alignment.
         </p>
       </footer>
 
