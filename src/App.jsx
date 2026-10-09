@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {
   Sparkles,
   MapPin,
-  Phone,
-  Mail,
   Clock,
   Compass,
   ShieldCheck,
@@ -837,7 +835,7 @@ function App() {
           <div className="contact-info">
             <h3 style={{ fontSize: '1.8rem', color: 'var(--gold-primary)' }}>Get In Touch</h3>
             <p style={{ color: '#c5a880', opacity: 0.9 }}>
-              Have questions about choosing the right Rudraksha or gemstone? Fill out the form or reach us through our channels.
+              Have questions about choosing the right Rudraksha or gemstone? Fill out the inquiry form and our divine counselors will connect with you.
             </p>
 
             <div className="info-item">
@@ -845,22 +843,6 @@ function App() {
               <div className="info-details">
                 <h4 style={{ color: 'var(--gold-primary)', fontSize: '1.1rem', marginBottom: '5px' }}>Sacred Sanctuary</h4>
                 <p style={{ color: '#c5a880', fontSize: '0.95rem' }}>108 Dev Bhumi Boulevard, Himalayan Foothills, India</p>
-              </div>
-            </div>
-
-            <div className="info-item">
-              <Phone className="info-icon" />
-              <div className="info-details">
-                <h4 style={{ color: 'var(--gold-primary)', fontSize: '1.1rem', marginBottom: '5px' }}>Call / WhatsApp</h4>
-                <p style={{ color: '#c5a880', fontSize: '0.95rem' }}>+91 98765 43210</p>
-              </div>
-            </div>
-
-            <div className="info-item">
-              <Mail className="info-icon" />
-              <div className="info-details">
-                <h4 style={{ color: 'var(--gold-primary)', fontSize: '1.1rem', marginBottom: '5px' }}>Email Address</h4>
-                <p style={{ color: '#c5a880', fontSize: '0.95rem' }}>support@shreerudradivine.com</p>
               </div>
             </div>
 
