@@ -943,6 +943,197 @@ function App() {
         </div>
       </section>
 
+      {/* Grand Ending Banner */}
+      <section 
+        className="ending-banner-section"
+        aria-label="Divine Cosmic Blessings Banner"
+      >
+        {/* Background image */}
+        <div 
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            backgroundImage: 'url(/ending-banner.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            filter: 'brightness(0.65) saturate(1.15)',
+            transform: 'scale(1.03)',
+            zIndex: 0
+          }}
+        />
+
+        {/* Ethereal dark gradient overlays */}
+        <div 
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            background: 'radial-gradient(ellipse at center, rgba(10, 11, 13, 0.55) 0%, rgba(10, 11, 13, 0.9) 75%, #050608 100%)',
+            zIndex: 1
+          }}
+        />
+
+        {/* Floating golden aura glow */}
+        <div 
+          style={{
+            position: 'absolute',
+            width: '600px',
+            height: '350px',
+            background: 'radial-gradient(circle, rgba(212, 175, 55, 0.22) 0%, rgba(212, 175, 55, 0) 70%)',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            filter: 'blur(50px)',
+            pointerEvents: 'none',
+            zIndex: 1
+          }}
+        />
+
+        {/* Content Box with Glassmorphism */}
+        <div className="ending-banner-card">
+          {/* Badge */}
+          <div 
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              padding: '6px 18px',
+              borderRadius: '50px',
+              background: 'rgba(212, 175, 55, 0.12)',
+              border: '1px solid rgba(212, 175, 55, 0.4)',
+              color: 'var(--gold-primary)',
+              fontSize: '0.82rem',
+              fontWeight: '600',
+              letterSpacing: '2px',
+              textTransform: 'uppercase',
+              marginBottom: '20px'
+            }}
+          >
+            <Sparkles size={15} style={{ color: 'var(--gold-primary)' }} />
+            Sacred Cosmic Consecration
+          </div>
+
+          <h2 
+            style={{
+              fontFamily: 'var(--font-heading)',
+              fontSize: 'clamp(1.9rem, 4vw, 3.2rem)',
+              color: '#ffffff',
+              letterSpacing: '1.5px',
+              lineHeight: 1.25,
+              marginBottom: '18px',
+              textShadow: '0 0 25px rgba(212, 175, 55, 0.3)'
+            }}
+          >
+            Awaken Your <span style={{ color: 'var(--gold-primary)' }}>Highest Potential</span>
+          </h2>
+
+          <p 
+            style={{
+              color: '#c5a880',
+              fontSize: 'clamp(0.95rem, 1.8vw, 1.15rem)',
+              lineHeight: 1.7,
+              maxWidth: '780px',
+              margin: '0 auto 32px',
+              opacity: 0.95
+            }}
+          >
+            Every sacred Nepalese Rudraksha bead and Vedic gemstone from Shree Rudra Divine is meticulously selected, lab-verified, and traditionally energized through authentic Himalayan rituals to harmonize your planetary energies.
+          </p>
+
+          {/* Pillars of Trust */}
+          <div 
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              justifyContent: 'center',
+              gap: '15px 30px',
+              marginBottom: '35px',
+              color: '#e5d3b3',
+              fontSize: '0.9rem'
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <ShieldCheck size={18} style={{ color: 'var(--gold-primary)' }} />
+              <span>100% Certified Authentic</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Gem size={18} style={{ color: 'var(--gold-primary)' }} />
+              <span>Vedic Astrological Alignment</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <CheckCircle size={18} style={{ color: 'var(--gold-primary)' }} />
+              <span>Laboratory Verification</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Compass size={18} style={{ color: 'var(--gold-primary)' }} />
+              <span>Sacred Himalayan Origin</span>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div 
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              gap: '18px',
+              flexWrap: 'wrap'
+            }}
+          >
+            <a 
+              href="#collection"
+              className="gold-btn"
+              style={{
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '14px 30px',
+                fontSize: '0.95rem',
+                fontWeight: '600'
+              }}
+            >
+              <Gem size={18} /> Explore Sacred Collection
+            </a>
+            <a 
+              href="#contact"
+              style={{
+                textDecoration: 'none',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '14px 30px',
+                fontSize: '0.95rem',
+                fontWeight: '600',
+                color: '#fff',
+                background: 'rgba(212, 175, 55, 0.08)',
+                border: '1px solid rgba(212, 175, 55, 0.45)',
+                borderRadius: '4px',
+                transition: 'all 0.3s ease',
+                letterSpacing: '1px',
+                textTransform: 'uppercase'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = 'rgba(212, 175, 55, 0.2)';
+                e.currentTarget.style.borderColor = 'var(--gold-primary)';
+                e.currentTarget.style.boxShadow = '0 0 15px rgba(212, 175, 55, 0.3)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = 'rgba(212, 175, 55, 0.08)';
+                e.currentTarget.style.borderColor = 'rgba(212, 175, 55, 0.45)';
+                e.currentTarget.style.boxShadow = 'none';
+              }}
+            >
+              <Send size={16} /> Seek Divine Guidance
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="footer" style={{ padding: '60px 20px 40px', position: 'relative' }}>
         {/* Animated Spin Gemstone Icon */}

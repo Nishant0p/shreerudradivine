@@ -1621,3 +1621,40 @@ body,
     height: 44px;
   }
 }
+
+/* Grand Ending Banner Styles */
+.ending-banner-section {
+  position: relative;
+  padding: 100px 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(212, 175, 55, 0.3);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.ending-banner-card {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 40px;
+  background: rgba(15, 17, 23, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 16px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6), 0 0 30px rgba(212, 175, 55, 0.15);
+}
+
+@media (max-width: 768px) {
+  .ending-banner-section {
+    padding: 60px 15px !important;
+  }
+  .ending-banner-card {
+    padding: 35px 20px !important;
+  }
+}
