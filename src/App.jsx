@@ -1136,17 +1136,16 @@ function App() {
 
       {/* Footer */}
       <footer className="footer" style={{ padding: '60px 20px 40px', position: 'relative' }}>
-        {/* Animated Spin Gemstone Icon */}
-        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
+        {/* Official Brand Logo */}
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '18px' }}>
           <img 
-            src="/premium-gemstone.png" 
-            alt="Rotating Cosmic Gemstone" 
+            src="/logo.png" 
+            alt="Shree Rudra Divine Sacred Logo" 
             style={{ 
-              width: '72px', 
-              height: '72px', 
+              width: '84px', 
+              height: '84px', 
               objectFit: 'contain', 
-              filter: 'drop-shadow(0 0 12px rgba(212, 175, 55, 0.4))',
-              animation: 'spinGemstone 25s linear infinite'
+              filter: 'drop-shadow(0 0 16px rgba(212, 175, 55, 0.55))'
             }} 
           />
         </div>
