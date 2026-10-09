@@ -842,7 +842,7 @@ function App() {
               <MapPin className="info-icon" />
               <div className="info-details">
                 <h4 style={{ color: 'var(--gold-primary)', fontSize: '1.1rem', marginBottom: '5px' }}>Sacred Sanctuary</h4>
-                <p style={{ color: '#c5a880', fontSize: '0.95rem' }}>108 Dev Bhumi Boulevard, Himalayan Foothills, India</p>
+                <p style={{ color: '#c5a880', fontSize: '0.95rem' }}>Mumbai, India</p>
               </div>
             </div>
 
